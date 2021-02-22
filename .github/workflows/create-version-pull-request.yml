@@ -1,4 +1,4 @@
-name: Create Version PR
+name: Release
 
 on:
   push:
@@ -23,10 +23,9 @@ jobs:
       - name: Install dependencies
         run: yarn
       
-      - name: Author of the commit
-        run: echo '${{ github.actor }}'
-
-      - name: Create Version Pull Request
+      - name: Create Release Pull Request
         uses: changesets/action@master
+        with:
+          publish: yarn test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
