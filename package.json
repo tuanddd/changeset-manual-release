@@ -3,7 +3,7 @@
     "@changesets/cli": "^2.14.1"
   },
   "name": "changeset-manual-release",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "main": "index.js",
   "repository": "git@github.com:tuanddd/changeset-manual-release.git",
   "author": "Dao Tuan <heryhudson@gmail.com>",
