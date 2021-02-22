@@ -23,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: yarn
       
-      - name: Author of the PR
-        run: echo '${{ github.event.pull_request.user.login }}'
+      - name: Author of the commit
+        run: echo '${{ github.event.pusher.name }}'
 
       - name: Create Version Pull Request
         uses: changesets/action@master
