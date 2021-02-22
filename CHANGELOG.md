@@ -1,5 +1,11 @@
 # changeset-manual-release
 
+## 2.1.0
+
+### Minor Changes
+
+- de9b44a: asd
+
 ## 2.0.0
 
 ### Major Changes
