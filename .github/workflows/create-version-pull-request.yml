@@ -24,7 +24,7 @@ jobs:
         run: yarn
       
       - name: Author of the commit
-        run: echo '${{ github.event.pusher.name }}'
+        run: echo '${{ github.actor }}'
 
       - name: Create Version Pull Request
         uses: changesets/action@master
