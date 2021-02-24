@@ -22,10 +22,11 @@ jobs:
 
       - name: Install dependencies
         run: yarn
-      
+
       - name: Create Release Pull Request
         uses: changesets/action@master
         with:
           publish: yarn test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GOOGLE_KEY_FILE_NAME: ${{ secrets.GOOGLE_KEY_FILE_NAME  }}
