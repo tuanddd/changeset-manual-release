@@ -2,12 +2,12 @@
   "$schema": "https://unpkg.com/@changesets/config@1.3.0/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "zlatanpham/changesets-monorepo-testing" }
+    { "repo": "tuanddd/changeset-manual-release" }
   ],
   "commit": false,
   "linked": [],
-  "access": "public",
-  "baseBranch": "master",
+  "access": "restricted",
+  "baseBranch": "main",
   "ignore": [],
   "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
     "onlyUpdatePeerDependentsWhenOutOfRange": true
