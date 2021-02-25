@@ -7,7 +7,7 @@ on:
 
 jobs:
   release:
-    if: github.repository == 'zlatanpham/changesets-monorepo-testing'
+    if: github.repository == 'tuanddd/changeset-manual-release'
 
     timeout-minutes: 20
 
